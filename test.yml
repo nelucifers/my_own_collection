@@ -1,0 +1,5 @@
+---
+- name: Test role
+  hosts: localhost
+  roles:
+    - role: create-text-file
